@@ -37,7 +37,6 @@ function PostPage() {
         <div className="info">
                 <time dateTime="">{formattedDate} </time>
                 <TimeAgo date={postInfo.createdAt}/>
-                <Link to={`/author`} style={{fontWeight:'bold',textTransform:'capitalize'}}>{userInfo.username}</Link>
         </div> 
         
         <h2>{postInfo.summary}</h2>
